@@ -10,7 +10,8 @@ function prompt(question, h) {
     return h;
 };
 
-var temp = prompt(' ', 'temp'); //var temp = prompt('Enter a temp in degrees Celsius: ', 'temp');
+//var temp = prompt(' ', 'temp'); //var temp = prompt('Enter a temp in degrees Celsius: ', 'temp');
+var temp = 22; //instead of using prompt, rerouted around function for simplicity ^-^
 var x = temp;
 if (temp != null) {
     temp = ((x * 9) / 5) + 32; //From Celsius to Fahrenheit;
